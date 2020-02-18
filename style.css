@@ -1,0 +1,60 @@
+/*
+	①タイトル部分の背景をネイビー(#000080)、文字の色を白(#ffffff)に変更する
+*/
+h1{
+	background-color: #000080;
+	color: #ffffff;
+}
+
+
+img{
+	width: 100%;
+}
+
+table{
+	width: 100%;
+}
+
+/*
+	②<th>の幅を30%に変更する/文字を右寄せにする/右側に10pxの余白を設定する
+*/
+th{
+	width: 30%;
+	text-align: right;
+	padding-right: 10px;
+	background-color: #000080;
+	color: #ffffff;
+}
+
+/*
+	③<td>の左に10pxの余白を設定する
+*/
+td{
+	padding-left: 10px	
+}
+
+/*
+	④2つ目の<div>に対して、
+	背景をグレー(#dddddd)に変更する
+	線を周りにつける(線の種類:dotted/太さ:3px/色:#000080)
+	線の角に丸みを10pxつける
+*/
+
+.prof{
+	background-color: #dddddd;
+	border:dotted 3px #000080;
+	border-radius: 10px;
+}
+
+/*
+	⑤ボタンの背景を
+*/
+.link{
+	text-align: center;
+}
+
+a {
+	background-color: #ff8c00;
+	color: #ffffff;
+	padding: 10px 30px;
+}
